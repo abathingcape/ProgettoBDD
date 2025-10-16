@@ -1,0 +1,296 @@
+.modificaposttasto{
+    background-color: #ffbd2c;
+    margin-top:15px;
+    margin-right: 10px;
+    border-radius: 15px;
+    color: white; 
+    border: none; 
+    padding: 5px 15px;
+}
+.eliminaposttasto{
+    background-color: #b81414;
+    margin-top:15px;
+    margin-left: 10px;
+    border-radius: 15px;
+    color: white; 
+    border: none; 
+    padding: 5px 15px;
+}
+.eliminaposttasto:hover{
+    background-color: #861d1d;
+}
+.modificaposttasto:hover{
+    background-color: #f19900;
+}
+
+.eliminacommentotasto{
+    background-image:url("cartella_foto/icons8-cestino-30.png");
+    width: 32px;
+    height:32px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border:none;
+}
+.modificapost {
+    display: flex;
+}
+
+.commenti{
+    margin-top:15px;
+}
+
+.fa-arrow-down {
+    color: #0039a6;
+}
+
+.dashboard-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px auto 50px auto;
+    background-color: #fff;
+    max-width: 80%;
+    border-radius: 20px;
+    justify-content: center;
+    font-family: 'Comfortaa';
+}
+
+.Titolo_post h1{
+    margin-bottom: 20px;
+    font-family: 'Comfortaa';
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+.Nome_Blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nome_Blog a{
+    color: #515151;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 4px;   
+    font-weight: 100;
+    margin-bottom: 0;
+}
+.Nome_blog a:hover{
+    color: black;    
+}
+
+.Nome_Blog p {
+    font-weight: bolder;
+    margin-bottom: 0;
+    background-color: #0039a6;
+    border-radius: 5px;
+    padding: 1px 5px 0 5px;
+    color: white;
+}
+
+.utentedata {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.Username {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Username a {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    font-family: 'Comfortaa';
+    color: black;
+}
+
+.Username i {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-right: 4px;
+}
+
+.Dataeora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Dataeora p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.Dataeora i {
+    margin-bottom: 0;
+    font-size: 14px;
+    margin-right: 4px;
+    margin-left: 10px;
+}
+
+.DescrizionePost {
+    width: 80%;
+}
+
+.DescrizionePost p{
+    text-align: center;
+}
+
+.FotoContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.FotoPost1,
+.FotoPost2 {
+    /*width: 48%;  Considera lo spazio per il margine */
+    width: 450px;
+    height: 300px;
+}
+
+.FotoPost1 img,
+.FotoPost2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+.FotoPost1 {
+    margin-right: 20px;
+}
+
+.FotoPost2 {
+    margin-left: 20px;
+}
+
+/*FEEDBACK*/
+
+.piùcommenti{
+    justify-content: center;
+    display:flex;
+}
+
+.caricacommenti{
+    background-color:white;
+    margin-top:15px;
+    border-radius: 15px;
+    
+    border: none; 
+    padding: 5px 15px;
+}
+
+.caricacommenti:hover{
+    background-color:#0039a6;
+    color: white; 
+}
+.salvavaluta {
+    width: 70%;
+    display: flex;
+    justify-content: space-between; /* Distribuisce gli elementi su tutta la larghezza del contenitore */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.like {
+    order: 1; 
+    display: flex;
+    align-items: center;
+}
+
+.like h2 {
+    font-family: 'Comfortaa';
+    font-size: 24px;
+    margin: auto 0 auto 5px;
+}
+
+.fa-thumbs-up {
+    color: #1d1e2f;
+    font-size: 30px;
+}
+
+#salva {
+    order: 2; 
+    color: #1d1e2f;
+    font-size: 30px;
+}
+#salvato{
+    order: 2; 
+    color: #1d1e2f;
+    font-size: 30px;
+}
+
+/*COMMENTI*/
+
+.commenti {
+    margin-top: 20px;
+    width: 70%;
+}
+
+#nuovocommento {
+    padding: 5px;
+}
+
+.mandacommento{
+    border-radius:7px;
+    border: none;
+    background-color: #f19900;
+    color: #fff;
+    padding: 5px 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.listacommenti {
+    margin-top: 20px;
+}
+
+.scrivicommento {
+    margin: auto;
+}
+
+#nuovocommento {
+    width: 90%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.utentecommento {
+    display: flex;
+    margin-top: 10px;
+}
+
+.utentecommento a{
+    margin-left: 5px;
+}
+
+
+.fa-trash {
+    color: #1d1e2f;
+    margin-left: 15px;
+}
+
+.testodata {
+    display: flex;
+}
+
+.testo{
+    width: 80%;
+    margin: auto 0 auto 0;
+}
+
+.data {
+    font-family: 'Comfortaa';
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto 0 auto 0;
+}
