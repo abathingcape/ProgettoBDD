@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+section {
+    padding-top: 8%;
+}
+
+.form-floating>.form-control, .form-floating>.form-control-plaintext {
+    padding-top: 0!important;
+    padding-left: 10px!important;
+    padding-bottom: 0!important;
+}
+
+.form-control::placeholder {
+    color: gray!important;
+    z-index: 1;
+}
+
+.form-floating {
+    z-index: 1;
+    font-family: 'Comfortaa';
+}
+
+#return_message {   
+    text-align: center;
+}
+
+.error {
+    color: red;
+    z-index: 1;
+    font-size: 0.9em;
+}
+
+.card {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.box {
+    border-radius: 20px;
+}
+
+.sx {
+    background-color: #1d1e2f;
+}
+
+.dx {
+  background-color:#0039a6;
+}
+
+.cred { 
+    background-color: #0039a6!important;
+}
+
+.border-bottom {
+    border-bottom: none!important;
+}
+
+.accedi {
+    color: white;
+}
+
+#btnlogin {
+    background-color: #1d1e2f!important;
+    color: white;
+}
+
+.accedi{
+    text-align: center;
+}
+
+.logo {
+    margin-top: 180px!important;
+}
+
+h2 {
+    font-size: 24px!important;
+}
+
+.slogan {
+    border-top: 4px;
+    border-color: white;
+}
+
+
+/*---- recupero password ----*/
+
+.corpo {
+    font-family: 'Comfortaa';
+    background-color: #0039a6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #1d1e2f;
+}
+
+.form {
+    padding: 20px!important;
+}
+
+body > div > h4 {
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    width: 350px;
+    margin: 50px auto 20px auto;
+    border-top: 2px solid white;
+    padding-top: 30px;
+}
+
+.logorecupero {
+    text-align: center;
+    margin: 30px auto 30px auto;
+}
+
+.logo img {
+    height: auto;
+}
+
+label {
+    display: block;
+    color: white;
+    margin: 0!important;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color:#0039a6;
+    color: #fff;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto 0 auto;
+    font-family: Comfortaa;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}

@@ -1,0 +1,266 @@
+.strutturablog {
+    display: flex;
+    background-color: #CACACA	;
+    width: 70%;
+    margin: 100px auto 0 auto;
+    border-radius: 20px 20px 0 0;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+
+.fotoblog {
+    width: 800px;
+    height: 300px;
+    margin: auto 0 auto 50px;
+}
+
+.fotoblog img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.infoblog {
+    margin: 50px 0 0 0;
+    width: 100%;
+    padding-right: 30px;
+}
+
+.infoblog h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Comfortaa';
+}
+
+.infoblog h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Comfortaa';
+    text-align: center;
+}
+
+.aut_coaut {
+    margin-top: 30px;
+}
+
+.aut_coaut p {
+    font-family: 'Comfortaa';
+    align-items: center;
+}
+
+.autore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.autore p {
+    margin: auto 0 auto 3px; 
+    font-size: 14px;
+}
+
+.autore i {
+    font-size: 20px;
+}
+
+.coautori {
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+    margin-top: 5px; 
+}
+
+.coautori p {
+    margin: auto 0 auto 0;
+    background-color: #0039a6;
+    color: #fff;
+    padding: 3px 5px 1px 5px;
+    border-radius: 5px;
+}
+
+.coautori a {
+    font-family: 'Comfortaa'!important;
+    margin: auto 0 auto 5px;
+}
+
+.DescrizioneBlog p  {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Comfortaa'
+}
+
+.titolopostinblog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titolopostinblog h1 {
+    width: 70%;
+    background-color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-left: 4%;
+    font-family: 'Comfortaa'
+}
+
+.deladd {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.autore a{
+    font-family: 'Comfortaa';
+    color: black;
+}
+
+.modificablog button{
+    font-family: 'Comfortaa';
+    background-color: #CACACA;
+    margin-right: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.modificablog button:hover {
+    background-color: #fbc315;
+    color: #fff;
+}
+
+.eliminablog .eliminablogtasto {
+    font-family: 'Comfortaa';
+    background-color: #CACACA;
+    margin-left: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.eliminablog .eliminablogtasto:hover {
+    background-color: #b81414;
+    color: #fff;
+}
+
+/*--Stile dei post in un blog--*/
+
+.strutturapost{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto auto auto;
+    max-width: 70%;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+}
+
+.postblog-image{
+    width: 40%;
+    border-radius: 21px;
+    margin: auto auto 40px auto;
+    transition: transform 0.3s ease;
+}
+
+.postblog-image:hover {
+    transform: scale(1.05);
+}
+
+.postblog {
+    width: 40%;
+    border-radius: 21px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    border: #1d1e2f solid 1px;
+    transition: transform 0.3s ease;
+}
+
+.postblog:hover{
+    transform: scale(1.05);
+}
+
+.postblog-image {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.postblog-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Opacità dell'overlay, regola questa parte se vuoi regolare l'opacità */
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.postblog-image h1 {
+    position: relative;
+    z-index: 2;
+    color: #ffffff; /* Colore del testo chiaro */
+    text-transform: uppercase;
+    font-family: 'Comfortaa';
+    margin: 0;
+    padding: 90px 110px 110px 110px;
+    text-align: center;
+    align-items: center;
+}
+
+.autorepostblog {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #0039a6;
+    border-radius: 20px 20px 0 0;
+}
+
+.autorepostblog p{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    font-family: 'Comfortaa';
+    margin-left: 5px;
+}
+
+.autorepostblog a{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    font-family: 'Comfortaa';
+    margin-left: 5px;
+}
+
+.dataorapostblog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.dataorapostblog p {
+    color: #fff;
+    font-family: 'Comfortaa';
+    margin-left: 5px;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.fa-clock {
+    font-size: 10px;
+    
+}
